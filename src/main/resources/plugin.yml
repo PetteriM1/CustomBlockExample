@@ -1,0 +1,14 @@
+name: CustomBlockExample
+main: petterim1.customblockexample.Main
+version: "${pom.version}"
+api: ["1.0.22"]
+author: PetteriM1
+load: STARTUP
+
+commands:
+  test:
+    permission: test
+
+permissions:
+  test:
+    default: op
